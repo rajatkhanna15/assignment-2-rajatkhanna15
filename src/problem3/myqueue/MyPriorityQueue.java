@@ -69,4 +69,14 @@ public class MyPriorityQueue {
     }
 
 
+    public void peep()
+    {
+        Node temp = head;
+        while(temp!=null)
+        {
+            System.out.println(temp.getObj().getName()+" "+temp.getObj().getRoll());
+            temp = temp.getNext();
+        }
+    }
+
 }
