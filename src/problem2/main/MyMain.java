@@ -40,5 +40,9 @@ public class MyMain {
         mbst.preOrder(mbst.root);
         System.out.println();
 
+        mbst.postOrder(mbst.root);
+
+
+
     }
 }
