@@ -7,7 +7,16 @@
 package problem1.mybst;
 
 
+import problem1.node.TreeNode;
+
 // to implement BinarySearchTree
 public class MyBinarySearchTree {
+    /*
+    Some variables to be used.
+     */
+    public TreeNode root;
+    int count;
+
+
 
 }
