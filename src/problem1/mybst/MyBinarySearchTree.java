@@ -77,6 +77,7 @@ public class MyBinarySearchTree {
 
 
 
-
-
+    public int getCount() {
+        return count;
+    }
 }
