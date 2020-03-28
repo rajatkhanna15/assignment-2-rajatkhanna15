@@ -25,14 +25,14 @@ public class Node {
     }
 
 
-    public Node getNext() {
-        return next;
-    }
-
     public void setObj(Student obj)
     {
 
         this.obj = obj;
+    }
+
+    public Node getNext() {
+        return next;
     }
 
     public void setNext(Node next) {
