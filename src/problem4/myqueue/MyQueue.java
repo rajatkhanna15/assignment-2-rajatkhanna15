@@ -22,5 +22,11 @@ public class MyQueue {
     Default constructor.
      */
 
+    public MyQueue()
+    {
+        front = null;
+        rear = null;
+    }
+
 
 }
