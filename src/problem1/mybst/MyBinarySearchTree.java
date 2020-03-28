@@ -7,6 +7,7 @@
 package problem1.mybst;
 
 
+import com.sun.source.tree.Tree;
 import problem1.node.TreeNode;
 
 // to implement BinarySearchTree
@@ -107,7 +108,7 @@ public class MyBinarySearchTree {
 
 
     /*
-    preOrder() method starts
+    preOrder() method
      */
     public void preOrder(TreeNode root)
     {
@@ -125,6 +126,22 @@ public class MyBinarySearchTree {
     }
 
 
+    /*
+    postOrder() method
+     */
+    public void postOrder(TreeNode root)
+    {
+        if(root == null)
+        {
+            return;
+        }
+        else
+        {
+            postOrder(root.getLeft());
+            postOrder(root.getRight());
+            System.out.print(root.getData()+" ");
+        }
+    }
 
 
 }
