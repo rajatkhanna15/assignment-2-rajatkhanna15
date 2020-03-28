@@ -9,5 +9,22 @@
 package problem3.node;
 
 
+import problem5.student.Student;
+
 public class Node {
+    /*
+    Some variables to be used.
+     */
+    Student obj;
+    Node next;
+
+
+    public void setObj(Student obj) {
+
+        this.obj = obj;
+    }
+
+    public void setNext(Node next) {
+        this.next = next;
+    }
 }
