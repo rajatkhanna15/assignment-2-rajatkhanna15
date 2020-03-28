@@ -81,5 +81,28 @@ public class MyBinarySearchTree {
         return count;
     }
 
+    /*
+    printLeftNode() method to print the left subtree
+     */
+    public void printLeftNode(TreeNode root)
+    {
+        if(root == null)
+        {
+            return;
+        }
+        else
+        {
+            if(root.getLeft()!=null)
+            {
+                System.out.print(root.getLeft().getData()+" ");
+            }
+            else
+            {
+                count++;
+            }
+            printLeftNode(root.getLeft());
+            printLeftNode(root.getRight());
+        }
+    }
 
 }
