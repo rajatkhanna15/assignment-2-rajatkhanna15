@@ -24,6 +24,7 @@ public class Node {
         return obj;
     }
 
+
     public Node getNext() {
         return next;
     }
