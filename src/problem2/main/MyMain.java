@@ -43,6 +43,9 @@ public class MyMain {
         mbst.postOrder(mbst.root);
 
 
+        System.out.println("First statement is true");
+        System.out.println("Second statement is false as we didn't get the middle point same.");
 
     }
+
 }
