@@ -23,4 +23,5 @@ public class MyBinarySearchTree {
     public MyBinarySearchTree() {
         root = null;
     }
+
 }
