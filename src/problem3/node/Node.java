@@ -19,7 +19,17 @@ public class Node {
     Node next;
 
 
-    public void setObj(Student obj) {
+
+    public Student getObj() {
+        return obj;
+    }
+
+    public Node getNext() {
+        return next;
+    }
+
+    public void setObj(Student obj)
+    {
 
         this.obj = obj;
     }
