@@ -37,8 +37,9 @@ public class MyMain {
         System.out.println("Left Child Nodes are:");
         mbst.printLeftNode(mbst.root);
         System.out.println();
-
-
+        System.out.println("No. of nodes that does not have a left child node:"+mbst.getCount());
 
     }
+
+
 }
