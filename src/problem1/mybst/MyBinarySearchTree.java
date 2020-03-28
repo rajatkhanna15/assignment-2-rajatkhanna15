@@ -106,5 +106,23 @@ public class MyBinarySearchTree {
     }
 
 
+    /*
+    preOrder() method starts
+     */
+    public void preOrder(TreeNode root)
+    {
+        if(root==null)
+        {
+            return;
+        }
+        else
+        {
+            System.out.print(root.getData()+" ");
+            preOrder(root.getLeft());
+            preOrder(root.getRight());
+        }
+
+    }
+
 
 }
