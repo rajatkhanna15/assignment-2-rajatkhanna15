@@ -17,6 +17,10 @@ public class MyBinarySearchTree {
     public TreeNode root;
     int count;
 
+    //BinaryTree structure creation starts
 
 
+    public MyBinarySearchTree() {
+        root = null;
+    }
 }
