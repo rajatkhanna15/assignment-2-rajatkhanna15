@@ -22,10 +22,10 @@ public class MyMain {
         inserting values
          */
         mpq.insert("Yash",45);
-        mpq.insert("Yash",45);
-        mpq.insert("Yash",45);
-        mpq.insert("Yash",45);
-        mpq.insert("Yash",45);
+        mpq.insert("Rajat",30);
+        mpq.insert("Jatin",24);
+        mpq.insert("Abhishek",1);
+        mpq.insert("Harshit",21);
 
         System.out.println("Students aaranged in ascending order according to their roll numbers are:");
         mpq.peep();
