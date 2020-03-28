@@ -37,5 +37,8 @@ public class MyMain {
         printing the required result.
          */
 
+        mbst.preOrder(mbst.root);
+        System.out.println();
+
     }
 }
