@@ -34,6 +34,9 @@ public class MyMain {
         /*
         Printing the required result.
          */
+        System.out.println("Left Child Nodes are:");
+        mbst.printLeftNode(mbst.root);
+        System.out.println();
 
 
 
