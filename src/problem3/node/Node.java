@@ -31,6 +31,7 @@ public class Node {
         this.obj = obj;
     }
 
+
     public Node getNext() {
         return next;
     }
