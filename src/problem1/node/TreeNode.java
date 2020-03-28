@@ -39,6 +39,7 @@ public class TreeNode {
         this.right = right;
     }
 
+
     public TreeNode getLeft() {
         return left;
     }
