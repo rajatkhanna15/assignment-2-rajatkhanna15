@@ -17,4 +17,10 @@ public class MyPriorityQueue {
     Node head;
 
 
+    public MyPriorityQueue()
+    {
+        head = null ;
+    }
+
+
 }
