@@ -27,6 +27,8 @@ public class MyMain {
         mpq.insert("Yash",45);
         mpq.insert("Yash",45);
 
-
+        System.out.println("Students aaranged in ascending order according to their roll numbers are:");
+        mpq.peep()
     }
+
 }
