@@ -63,6 +63,18 @@ public class MyQueue {
         }
     }
 
+    /*
+    displaying the required result.
+     */
+    public void dispPreOrderSuccessor()
+    {
+        Node temp = front.getNext();
+        while(temp != null)
+        {
+            System.out.print(temp.getData()+" ");
+            temp = temp.getNext();
+        }
+    }
 
 
 }
