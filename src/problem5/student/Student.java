@@ -67,4 +67,15 @@ public class Student {
         this.backlog = backlog;
     }
 
+    /*
+    Parametrised constructor.
+     */
+
+    public Student(int roll, int apcount, int backlog) {
+        this.roll = roll;
+        this.apcount = apcount;
+        this.backlog = backlog;
+    }
+
 }
+
