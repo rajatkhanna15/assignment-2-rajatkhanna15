@@ -8,7 +8,7 @@ import problem5.student.*;
 
 // to define node properties
 
- class Node {
+ public class Node {
     /*
     Variables to be used.
      */
