@@ -76,5 +76,17 @@ public class MyCircularQueue {
     display method
      */
 
+    public void display()
+    {
+        Node temp = front;
+        System.out.println();
+        while(temp.getNext()!=front)
+        {
+            System.out.println("ROLL NO :"+temp.getStudent().getRoll()+" Backlog "+temp.getStudent().getBacklog() + " Appearing Count "+temp.getStudent().getApcount());
+            temp = temp.getNext();
+        }
+        System.out.println("ROLL NO :"+temp.getStudent().getRoll()+" Backlog "+temp.getStudent().getBacklog() + " Appearing Count "+temp.getStudent().getApcount());
+    }
+
 
 }
