@@ -20,6 +20,10 @@ public class MyCircularQueue {
     int count;
 
 
-
+    public MyCircularQueue() {
+        this.front = null;
+        this.rear = null;
+        this.count = 0;
+    }
 
 }
