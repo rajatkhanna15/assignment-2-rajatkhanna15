@@ -21,6 +21,7 @@ public class Node {
     }
 
 
+
     public void setStudent(Student student) {
         this.student = student;
     }
