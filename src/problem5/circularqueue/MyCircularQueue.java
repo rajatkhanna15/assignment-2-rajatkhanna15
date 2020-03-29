@@ -9,6 +9,7 @@ package problem5.circularqueue;
 
 
 import problem5.node.*;
+import problem5.student.*;
 
 //to implement circular queue
 public class MyCircularQueue {
@@ -29,6 +30,26 @@ public class MyCircularQueue {
 
     public void enqueue(int roll,int backlog,int apcount)
     {
-
+        /*
+        Creating object of student class
+         */
+        Student st = new Student;
+        /*
+        Creating object of node class
+         */
+        Node newNode = new Node;
+        newNode.setStudent(st);
+        if(front == null)
+        {
+            front = newNode;
+        }
+        else
+        {
+            rear.setNext(front);
+        }
+        rear = newNode;
+        rear.setNext(front);
+        count++;
     }
+
 }
