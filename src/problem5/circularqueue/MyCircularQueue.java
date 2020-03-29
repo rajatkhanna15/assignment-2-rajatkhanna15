@@ -8,8 +8,8 @@
 package problem5.circularqueue;
 
 
-import problem5.node.*;
-import problem5.student.*;
+import problem5.node.Node;
+import problem5.student.Student;
 
 //to implement circular queue
 public class MyCircularQueue {
@@ -50,6 +50,26 @@ public class MyCircularQueue {
         rear = newNode;
         rear.setNext(front);
         count++;
+    }
+
+
+    public void removeBacklog()
+    {
+        while(count > 0)
+        {
+            count --;
+            Student temp = front.getStudent();
+            if(temp.getBacklog()-temp.getApcount() > 0)
+            {
+                front = front.getNext();
+                rear = rear.getNext();
+            }
+            else
+            {
+                rear.setNext(front.getNext());
+                front = front.getNext();
+            }
+        }
     }
 
 
