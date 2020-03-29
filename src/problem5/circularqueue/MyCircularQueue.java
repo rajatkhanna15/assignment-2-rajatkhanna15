@@ -26,4 +26,9 @@ public class MyCircularQueue {
         this.count = 0;
     }
 
+
+    public void enqueue(int roll,int backlog,int apcount)
+    {
+
+    }
 }
