@@ -1,14 +1,14 @@
-/*
+package problem5.node;/*
  *  Created by IntelliJ IDEA.
  *  User: Vaibhav
  *  Date: 23-Mar-20
  *  Time: 7:06 PM
  */
+import problem5.student.*;
 
-package problem5.node;
 // to define node properties
 
-public class Node {
+ class Node {
     /*
     Variables to be used.
      */
