@@ -13,4 +13,10 @@ public class MyMain {
     main() method.
      */
 
+    public static void main(String[] args) {
+        /*
+        Creating object of MyBinarySearchTree class of problem 1.
+         */
+
+    }
 }
