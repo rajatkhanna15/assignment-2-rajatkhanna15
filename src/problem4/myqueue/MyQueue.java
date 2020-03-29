@@ -29,5 +29,27 @@ public class MyQueue {
     }
 
 
+    public void enqueue(int data)
+    {
+        /*
+        Creating object of node class.
+         */
+        Node newNode = new Node();
+        newNode.setData(data);
+        /*
+        CHecking if queue is empty or not
+         */
+        if(front == null)
+        {
+            front = newNode;
+            rear = newNode;
+        }
+        else
+        {
+            rear.setNext(newNode);
+            rear = newNode;
+        }
+    }
+
 
 }
